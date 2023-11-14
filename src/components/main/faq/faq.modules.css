@@ -1,0 +1,18 @@
+.secondsemicircle{
+    position: absolute;
+    width: 20em;
+    height: 40em;
+    border: 1px solid #514A7E;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    top: 280%;
+    right: 0;
+}
+.faqtext label{
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87.305%; /* 34.922px */
+    margin-left: 13%;
+}

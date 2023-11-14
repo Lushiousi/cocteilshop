@@ -1,0 +1,126 @@
+.outerback {
+    width: 1400px;
+    height: 600px;
+    border: 1px solid black;
+    margin-top: 5%;
+    background: #514A7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* им */
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.05);
+}
+
+.innerback {
+    display: flex;
+    flex-direction: column;
+    background: #FFFDF5;
+    width: 1000px;
+    height: 400px;
+    border: 1px solid black;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 118%;
+}
+
+.innerback p {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.inputs {
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 8%;
+    background-color: #FFFDF5;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.inputs input::placeholder {
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 118%;
+    /* 14.16px */
+}
+
+.checkboxtext {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 118%;
+    /* 9.44px */
+}
+
+.checkboxes {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 7%;
+}
+
+.checkboxtext {
+    display: flex;
+}
+
+.send {
+    border: 0.5px solid #514A7E;
+    background: #514A7E;
+    width: 20%;
+    height: 90%;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #FFFDF5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.semicirclethird{
+    position: absolute;
+    width: 190px;
+    height: 380px;
+    border: 1px solid #514A7E;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    top: 500%;
+    right: 0;
+}
+.semicirclefilled{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    border: 1px solid #514A7E;
+    background-color: #514A7E;;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    top: 490%;
+    right: 0;
+}

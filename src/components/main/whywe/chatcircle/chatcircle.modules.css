@@ -1,0 +1,16 @@
+.chatcircle{
+position: absolute;
+display: flex;
+justify-content: center;
+right: 10%;
+border-radius: 50%;
+background-color: #514A7E;
+box-shadow: 0px 4px 10px 0px #514A7E66;
+width: 72px;
+height: 72px;
+}
+.chatsvg{
+    width: 36px;
+    height: 36px;
+    margin-top: 25%;
+}

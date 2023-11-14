@@ -1,0 +1,13 @@
+.buyer {
+    display: flex;
+    margin-left: 13%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%;
+    /* 34.922px */
+}

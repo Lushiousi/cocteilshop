@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    margin-top: 5%;
+    background: #514A7E;
+}
+
+.asd {
+    margin-left: 10%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h1 {
+    color: #FFFDF5;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 4vh;
+}
+
+.footer span {
+    color: #FFFDF5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8%;
+}
+
+.phoneNumber {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.phoneNumber span {
+    margin-left: 5%;
+}
+
+.jobtime span {
+    margin-left: 5%;
+}
+
+.svges {
+    display: flex;
+    margin-bottom: 8%;
+}
+
+.footer img {
+    width: 84px;
+    height: 84px;
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.20);
+    margin-top: 13%;
+}

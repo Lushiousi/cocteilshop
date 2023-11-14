@@ -1,0 +1,90 @@
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: 999999;
+}
+
+.modal-content {
+    height: 600px;
+    width: 1440px;
+    background-color: white;
+    position: absolute;
+    z-index: 9999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    margin-bottom: 10%;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%;
+    /* 34.922px */
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 5%;
+}
+
+form button {
+    width: 148px;
+    height: 37px;
+    margin-top: 10%;
+    border: 0.5px solid #514A7E;
+    background: #514A7E;
+    color: #FFFDF5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.closecircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 47px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #514A7E;
+}
+.close{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.singinlogin{
+    width: 148px;
+    height: 37px;
+    margin-top: 10%;
+    border: 0.5px solid #514A7E;
+    background: #514A7E;
+    color: #FFFDF5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

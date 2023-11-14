@@ -1,0 +1,32 @@
+.faqcontains{
+    margin-top: 4%;
+    margin-bottom: 8%;
+
+}
+
+.questions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 13%;
+    margin-right: 13%;
+    border-bottom: 1px solid black;
+}
+
+.questions label {
+    color: #121212;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.questions button{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: white;
+    font-size: 25px;
+
+}

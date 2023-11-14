@@ -1,0 +1,111 @@
+.jeans {
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.40);
+    width: 476px;
+    height: 416px;
+}
+
+.shirt {
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.40);
+    width: 272px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.images {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.text {
+    position: absolute;
+    top: 53%;
+    margin-left: 13%;
+}
+
+.maintext {
+    color: #121212;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%;
+}
+
+.maintext label {
+    color: #514A7E;
+    font-family: Bad Script;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116.406%;
+}
+
+.subtext{
+    position: absolute;
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+    top: 150%;
+    left: 0;
+}
+
+.catalog {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(81, 74, 126);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 193px;
+    height: 193px;
+    border-color: #514A7E;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.4s;
+}
+
+.catalogBtn:hover {
+    background-color: #514A7E;
+    color: white;
+    box-shadow: 0px 4px 10px 0px #514A7E66;
+}
+
+.fgh{
+    margin-left: 40%;
+    transition: filter 0.4s;
+    
+}
+.catalogBtn:hover .fgh{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.catalogBtn span {
+    margin-left: 14%;
+}
+
+
+.semicircle {
+    position: absolute;
+    width: 20em;
+    height: 40em;
+    border: 1px solid #514A7E;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    top: 80%;
+    right: 0;
+}

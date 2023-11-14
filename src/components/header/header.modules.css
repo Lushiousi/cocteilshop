@@ -1,0 +1,18 @@
+.header{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    margin-right: 55%;
+}
+.search_input{
+    margin-top: 1vh;
+    height: 20px;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid;
+}
